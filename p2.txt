@@ -1,0 +1,7 @@
+Everything sems fine 
+
+About to finish design and start responsiveness
+
+nav looks good
+
+Notice board area seems broke dow responsiveness..should fix. (Fixed) 
