@@ -162,22 +162,7 @@ nav a:hover {
 
 
 }
-/*Resonsie*/
-@media  screen and (max-width:590px) {
-     
-     nav{
-         
-         flex-direction: column;
-     }
-     .dropdown-menu
-     {
-         margin: 20px 0px ;
-     }
-     nav a:focus{
-         background-color: aliceblue;
-        
-     }
-}
+
 
 .dropdown-menu:hover .dropdown-content {
     display: block;
@@ -337,7 +322,7 @@ nav a:hover {
  /* border: 1px solid rgb(95, 190, 162); */
  box-shadow:  1px 1px 8px rgb(214, 214, 214);
  border-radius: 13px;
- max-width: 89vw;
+ max-width: 99vw;
  margin: auto;
  margin-top: 9rem;
  margin-bottom: 3rem;
@@ -397,6 +382,7 @@ nav a:hover {
     width: 39rem;
     /* border: 2px solid rgb(34, 34, 32); */
     margin: 1rem 0rem;
+    margin-bottom: 6rem;
     color: rgb(88, 88, 88);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -455,7 +441,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     max-width: 75rem;
     height: fit-content;
     border-radius: 13px;
-    box-shadow: 2px 2px 13px rgb(179, 177, 177);
+    box-shadow: 1px 1px 10px rgb(209, 207, 207);
 }
 .campus-image{
     margin: 9px 9px;
@@ -492,4 +478,179 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 .campus-image img:hover{
     transition: .7s ;
     filter: grayscale(0) saturate(.8);
+}
+
+
+
+/* footer */
+
+
+.conclusion{
+    margin: auto;
+    max-width: 100vw;
+    height: 19rem;
+    /* border: 2px solid red; */
+   /* background: url(/image/1-850x567.jpg); */
+   background: linear-gradient(to right white,rgb(206, 189, 189));
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   background-position: center;
+   filter: saturate(2);
+    /* margin-bottom: 30rem; */
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px rgb(212, 209, 209);
+}
+.conclusion::before{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    content: "Important Links";
+    position: absolute;
+   width: 100vw;
+   text-align: center;
+   height: fit-content;
+   font-size: 40px;
+   top: -30px;
+   text-shadow: 2px 2px 13px rgb(212, 209, 209);
+   color: rgb(61, 59, 59);
+}
+.link-card{
+    margin-top: 1rem;
+   z-index: +1;
+    width: 20rem;
+    /* border: 2px solid greenyellow; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+.link-card a{
+    color: rgb(15, 14, 14);
+    text-decoration: none;
+    text-align: center;
+   /* border: 1px solid yellow; */
+   border-bottom: 2px solid rgb(255, 255, 255);
+   margin: .5rem;
+}
+.link-card a:hover{
+    /* border-bottom: 2px solid rgb(185, 43, 43); */
+    text-shadow: 2px 2px 12px rgb(167, 162, 162);
+    transition: .6s;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: brown;
+}
+
+
+
+/*Resonsie*/
+@media   screen and (max-width:1180px) {
+    .event-notice{
+        /* border: 2px solid red; */
+        max-width: 35rem;
+    }
+
+    .class-notice{
+       height: fit-content;
+    }
+}
+
+@media   screen and (max-width:1055px) {
+     
+ .logo img{
+     height: 77px;
+ }
+
+h1{
+    font-size: 26px;
+ }
+ h2{
+    font-size: 20px;
+}
+ h3{
+font-size: 15px;
+}
+
+.content-top-right{
+   height: fit-content;
+}
+
+.card{
+    max-width: 12rem;
+    height: 16.8rem;
+    font-size: small;
+}
+.pic img{
+    max-width: 193px;
+}
+
+.event-notice h2{
+    font-size: 22px;
+}
+
+
+}
+
+/*Next break 916px*/
+
+@media   screen and (max-width:896px)
+{
+   .content-top-left p{
+    font-size: 14px;
+    padding: .6rem 1.5rem;
+   
+    }
+    h1{
+        font-size: 21px;
+    }
+     h2{
+        font-size: 14px;
+    }
+     h3{
+    font-size: 10px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .event-notice h2{
+            font-size: 22px;
+    }
+}
+
+@media   screen and (max-width:780px){
+
+    h1{
+        font-size: 18px;
+    }
+     h2{
+        font-size: 14px;
+    }
+     h3{
+    font-size: 10px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .event-notice h2{
+            font-size: 22px;
+    }
+    .top{
+        flex-direction: column;
+    }
+    .title{
+        width: 100vw;
+    }
+    .logo{
+        /* border: 2px solid red; */
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media   screen and (max-width:580px) {
+     
+    nav{
+        
+        flex-direction: column;
+    }
+    .dropdown-menu
+    {
+        margin: 20px 0px ;
+    }
 }
