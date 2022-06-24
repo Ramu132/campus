@@ -97,7 +97,6 @@ nav {
     min-height: 100%;
     height: fit-content;
     height: 100%;
-    position: sticky;
     top: 1px;
     /* min-height: 55px; */
 }
@@ -257,7 +256,6 @@ nav a:hover {
 
 
 .content-top-right {
-    /* border: 2px solid rgb(255, 0, 0); */
     max-width: 7rem;
     height: 18rem;
     font-family: cursive;
@@ -285,8 +283,9 @@ nav a:hover {
 .card {
     font-weight: 300;
     margin: 1rem 2rem;
-    max-width: 14rem;
-    height: 19rem;
+    max-width: 100%;
+    width: 15rem;
+    height: 20rem;
     padding: 5px 12px;
     border-radius: 12px;
     box-shadow: .5px .5px 10px rgb(218, 215, 215);
@@ -301,7 +300,7 @@ nav a:hover {
 
 .pic img {
     margin-top: 7px;
-    max-width: 224px;
+    max-width: 15rem;
 }
 
 .card h3 {
@@ -373,8 +372,9 @@ p {
     text-align: center;
     border-left: 8px solid gray;
     color: rgb(87, 85, 85);
-    font-size: large;
+    font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 .class-notice ul a:hover {
@@ -557,6 +557,7 @@ p a {
     /* border: 1px solid yellow; */
     border-bottom: 2px solid rgb(255, 255, 255);
     margin: .5rem;
+    font-size: .8rem;
 }
 
 .link-card a:hover {
@@ -583,40 +584,41 @@ p a {
 }
 
 @media screen and (max-width:1055px) {
+  
 
-    .logo img {
-        height: 77px;
+   .content-top-left p{
+     
+       padding:3%;
+       font-size: 80%;
+   }
+.logo img{
+    height: 8vw;
+}
+    h1{
+        font-size: 3.1vw;
+    }
+    h2{
+        font-size: 2.3vw;
+    }
+    h3{
+        font-size: 1.6vw;
     }
 
-    h1 {
-        font-size: 26px;
+    nav a{
+        font-size: 80%;
     }
-
-    h2 {
-        font-size: 20px;
+    .dropdown-menu{
+        font-size: unset;
     }
-
-    h3 {
-        font-size: 15px;
-    }
+ 
 
     .content-top-right {
-        height: fit-content;
+        height: 5rem;
     }
 
-    .card {
-        max-width: 12rem;
-        height: 16.8rem;
-        font-size: small;
-    }
+  
 
-    .pic img {
-        max-width: 193px;
-    }
-
-    .event-notice h2 {
-        font-size: 22px;
-    }
+  
     .bg img{
         max-height: 30rem;
     }
@@ -626,55 +628,26 @@ p a {
 /*Next break 916px*/
 
 @media screen and (max-width:896px) {
-    .content-top-left p {
+    /* .content-top-left p {
         font-size: 14px;
         padding: .6rem 1.5rem;
 
-    }
+    } */
 
-    h1 {
-        font-size: 21px;
-    }
-
-    h2 {
-        font-size: 14px;
-    }
-
-    h3 {
-        font-size: 10px;
-    }
-
-    a {
-        font-size: 15px;
-    }
-
-    .event-notice h2 {
-        font-size: 22px;
-    }
+  
 }
 
 @media screen and (max-width:780px) {
 
-    h1 {
-        font-size: 18px;
+    h1{
+        font-size: 3.45vw;
     }
-
-    h2 {
-        font-size: 14px;
+    h2{
+        font-size: 2.45vw;
     }
-
-    h3 {
-        font-size: 10px;
+    h3{
+        font-size: 1.7vw;
     }
-
-    a {
-        font-size: 15px;
-    }
-
-    .event-notice h2 {
-        font-size: 22px;
-    }
-
     .top {
         flex-direction: column;
     }
@@ -689,6 +662,7 @@ p a {
         display: flex;
         justify-content: center;
     }
+  
 }
 
 
@@ -700,23 +674,15 @@ p a {
 }
 
 @media screen and (max-width:530px) {
-    h1 {
-        font-size: 3.5vw;
+   
+    .title h1,h2,h3{
+        font-weight: bolder;
     }
-
-    h2 {
-        font-size: 2.5vw;
+    .content-top-left p{
+        font-size: 60%;
     }
-
-    h3 {
-        font-size: 1.9vw;
-    }
-
-    a {
-       font-size: 15px;
-    }
-    .logo img{
-        height: 70px;
+    .content-top-right{
+       
     }
 
 }
@@ -731,8 +697,11 @@ p a {
     .dropdown-menu {
         margin: 20px 0px;
     }
-    .event{
-        font-size: .8rem;
-    }
+   
   
+}
+@media screen and (max-width:409px){
+    .nav1{
+        display: none;
+    }
 }
