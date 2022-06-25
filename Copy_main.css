@@ -624,15 +624,14 @@ p a {
     .card h3,p{
         font-size: 70%;
     }
-    .administration{
-        border: 2px solid red;
-    }
     .card{
-        width: 17vw;
+        width: 26vw;
         height: fit-content;
+        margin: 1rem 2rem;
     }
     .pic img{
-        width: 17vw;
+        min-width: 100%;
+        width: 26vw ;
     }
     
 
