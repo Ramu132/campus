@@ -141,8 +141,8 @@ nav a:hover {
 
 .dropdown-content a:hover {
     cursor: pointer;
-    background-color: rgb(0, 204, 255);
-    color: aliceblue;
+    background-color: rgb(241, 244, 245);
+   
 
 }
 
@@ -571,6 +571,35 @@ p a {
     text-decoration-color: brown;
 }
 
+/* Button for sidebar nav */
+.btn{
+    
+    border: none;
+    width: 45px;
+    height: 40px;
+    text-align: center;
+}
+#btn1{
+    position: absolute;
+    color: rgb(38, 157, 255);
+    left: 10px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#btn2{
+    color: white;
+    background-color: rgb(38, 157, 255);
+    display: inline;
+    position: absolute;
+    left: 10px;
+    top: -1px;
+
+}
+
+
+
+
+
 
 
 /*Resonsie*/
@@ -710,17 +739,24 @@ p a {
 
     nav {
 
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .dropdown-menu {
         margin: 20px 0px;
     }
+    .nav1{
+       height: 14rem;
+       position: absolute;
+       z-index: -1;
+       top: -36rem;
+       transition: .5s linear;
+        /* display: none; */
+    }
+    .content{
+        z-index: -1;
+        margin-top: 3rem;
+    }
    
   
-}
-@media screen and (max-width:480px){
-    .nav1{
-        display: none;
-    }
 }
