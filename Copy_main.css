@@ -696,7 +696,7 @@ p a {
    
   
 }
-@media screen and (max-width:409px){
+@media screen and (max-width:430px){
     .nav1{
         display: none;
     }
