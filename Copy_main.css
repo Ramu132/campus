@@ -282,10 +282,10 @@ nav a:hover {
 
 .card {
     font-weight: 300;
-    margin: 1rem 2rem;
+    margin: 1rem .5rem;
     max-width: 100%;
-    width: 15rem;
-    height: 20rem;
+    width: 14rem;
+    height: 18.5rem;
     padding: 5px 12px;
     border-radius: 12px;
     box-shadow: .5px .5px 10px rgb(218, 215, 215);
@@ -300,7 +300,7 @@ nav a:hover {
 
 .pic img {
     margin-top: 7px;
-    max-width: 15rem;
+    max-width: 14rem;
 }
 
 .card h3 {
@@ -622,22 +622,24 @@ p a {
         max-height: 30rem;
     }
     .card h3,p{
-        font-size: 90%;
+        font-size: 70%;
     }
+    .administration{
+        border: 2px solid red;
+    }
+    .card{
+        width: 17vw;
+        height: fit-content;
+    }
+    .pic img{
+        width: 17vw;
+    }
+    
 
 }
 
-/*Next break 916px*/
 
-@media screen and (max-width:896px) {
-    /* .content-top-left p {
-        font-size: 14px;
-        padding: .6rem 1.5rem;
 
-    } */
-
-  
-}
 
 @media screen and (max-width:780px) {
 
@@ -671,6 +673,12 @@ p a {
 @media screen and (max-width:650px){
     .bg img{
         max-height: 25rem;
+    }.content-top-left p{
+        font-size: 60%;
+        padding: 1.0%;
+    }
+    .card h3,p{
+        font-size: 50%;
     }
 
 }
@@ -679,6 +687,10 @@ p a {
    
     .title h1,h2,h3{
         font-weight: bolder;
+    }
+    .card p{
+        
+        font-size: 40%;
     }
 
 }
