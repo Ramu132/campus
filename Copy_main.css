@@ -44,10 +44,12 @@ body {
     width: 100vw;
     height: fit-content;
     /* border: 2px solid  rgb(194, 81, 81); */
-    background-color: rgba(0, 0, 0, 0.158);
+    background-color: rgba(0, 0, 0, 0.218);
     /* border-bottom: 2px solid blue; */
-    color: rgb(255, 255, 255);
-    position: absolute;
+    color: aliceblue;
+    top: 1px;
+    position: fixed !important;
+    z-index: 5;
 }
 
 .logo {
@@ -97,7 +99,9 @@ nav {
     min-height: 100%;
     height: fit-content;
     height: 100%;
+    position: sticky;
     top: 1px;
+   
     /* min-height: 55px; */
 }
 
@@ -578,22 +582,28 @@ p a {
     width: 45px;
     height: 40px;
     text-align: center;
+    display: none;
 }
 #btn1{
     position: absolute;
     color: rgb(38, 157, 255);
     left: 10px;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: transparent;   
+}
+.btn:hover{
+    cursor: pointer;
 }
 #btn2{
     color: white;
-    background-color: rgb(38, 157, 255);
+    background-color: transparent;
     display: inline;
     position: absolute;
     left: 10px;
     top: -1px;
 
+}
+#btn1,#btn2{
+    display: none;
 }
 
 
@@ -756,6 +766,10 @@ p a {
     .content{
         z-index: -1;
         margin-top: 3rem;
+    }
+    
+    #btn1,#btn2{
+        display: block;
     }
    
   
