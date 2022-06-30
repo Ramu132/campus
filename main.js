@@ -14,3 +14,16 @@ function hide() {
     y.style.opacity="0"
     
 }
+
+
+//Dark mode
+function dark() {
+    let z=document.getElementById("body");
+    z.style.backgroundColor="rgb(20, 20, 20)"
+    let l=document.getElementById("body")
+    l.style.color="white";
+    let r =document.getElementsByClassName('color-white');
+   for(let x=0; x<r.length; x++){
+       r[x].style.color="white";
+   }
+}
