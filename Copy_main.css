@@ -115,7 +115,7 @@ nav a {
 nav a:hover {
     cursor: pointer;
     transition: .6s;
-    background-color: aliceblue;
+    background-color: rgb(247, 242, 242);
     color: rgb(0, 0, 0);
     box-shadow: inset 1px 1px 10px rgb(173, 172, 172);
 }
@@ -136,15 +136,15 @@ nav a:hover {
     text-align: center;
     padding: 12px 10px;
     font-size: 15px;
-    transition: .4s;
+    transition: .5s;
     border-bottom: 1px solid rgb(218, 218, 224);
     /* border: 1px solid red; */
 }
 
 .dropdown-content a:hover {
     cursor: pointer;
-    background-color: rgb(241, 244, 245);
-   
+    background-color: rgb(81, 212, 92);
+    box-shadow: inset 1px 1px 10px rgb(9, 104, 6);
 
 }
 
@@ -622,6 +622,38 @@ p a {
 }
 #btn1,#btn2{
     display: none;
+}
+
+
+
+/* light and dark mode */
+.modes{
+  margin-bottom: 4rem;
+    /* border: 2px solid red; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button{
+    border: none;
+    outline: none;
+    margin: 0px 15px;
+    padding: 10px 5px;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+.button:hover{
+    cursor: pointer;
+}
+#light{
+background-color: aliceblue;
+color: black;
+border: 1px solid black;
+box-shadow: 1px 1px 10px rgb(117, 117, 117);
+}
+#dark{
+background-color: black;
+color: white;
+box-shadow: 1px 1px 10px aliceblue;
+/* background-color: rgb(20, 20, 20); */
 }
 
 
