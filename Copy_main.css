@@ -332,7 +332,8 @@ nav a:hover {
     color: rgb(29, 29, 29);
     width: 16rem;
     height:13rem;
-    padding: 2px 5px;
+    padding: .3rem 1rem;
+    line-height: 1.4rem;
     position: absolute;
     transition: all ease-in-out .3s;
     top: 8rem;
@@ -427,12 +428,12 @@ p {
 }
 
 .class-notice {
-    border: 1px solid rgb(176, 182, 182);
+    /* border: 1px solid rgb(176, 182, 182); */
    
     max-width: 35rem;
-    /* box-shadow:  1px 1px 8px rgb(214, 214, 214); */
+    box-shadow:  1px 1px 8px rgb(214, 214, 214);
 
-    margin: 0rem 2rem;
+    margin: 1rem 2rem;
 
 }
 
