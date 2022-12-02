@@ -863,8 +863,13 @@ p a {
     nav {
 
         flex-direction: row;
+        max-height:15rem;
     }
-
+#home{
+    margin-left:2rem;
+   
+    }
+    
     .dropdown-menu {
         margin: 20px 0px;
     }
