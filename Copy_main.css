@@ -862,7 +862,7 @@ p a {
 
     nav {
 
-        flex-direction: row;
+        flex-direction: column;
         max-height:15rem;
     }
 #home{
