@@ -468,7 +468,8 @@ nav a:hover {
 
     nav {
 
-        flex-direction: row;
+        flex-direction: column;
+        max-height:15rem;
     }
 
     .dropdown-menu {
