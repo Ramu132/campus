@@ -403,7 +403,7 @@ width: 5rem;
     margin:0rem  1rem 0rem 1rem;
     text-align: center;
     /* background-color: rgb(97, 97, 97); */
-    color: rgb(255, 255, 255);
+    color: #ff2727
 }
 
 .event span h3 p {
@@ -503,7 +503,7 @@ p a {
 }
 
 .campus-image:hover p {
-    transition: 1.2s;
+    transition: 1.2s ease-in-out;
     color: white;
     background-color: rgb(59, 56, 56);
 }
@@ -519,11 +519,11 @@ p a {
 
 .campus-image:hover img {
     transform: scale(.75);
-    transition: 1s;
+    transition: 1s ease-in-out;
 }
 
 .campus-image img:hover {
-    transition: .7s;
+    transition: .7s ease-in-out;
     filter: grayscale(0) saturate(.8);
 }
 
