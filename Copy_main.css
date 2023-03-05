@@ -419,21 +419,21 @@ width: 5rem;
     border-radius: .2rem;
 }
 .event-image1{
-    background: url(image/pexels-idriss-meliani-2982449.jpg);
+    background: url(image/play1.jpg);
    background-size:100% 100%;
 
 }
 .event-image2{
-    background: url(image/pexels-idriss-meliani-2982449.jpg);
+    background: url(image/play2.jpg);
     
     background-size:100% 100%;
  }
  .event-image3{
-    background: url(image/pexels-idriss-meliani-2982449.jpg);
+    background: url(image/play3.jpg);
     background-size:100% 100%;
  }
  .event-image4{
-    background: url(image/pexels-idriss-meliani-2982449.jpg);
+    background: url(image/play4.jpg);
     background-size:100% 100%;
  }
 
