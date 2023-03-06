@@ -65,7 +65,7 @@ body {
     height: 8.1rem;
     z-index: -1;
     top: 0px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
 
 .logo {
