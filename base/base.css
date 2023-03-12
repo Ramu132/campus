@@ -168,6 +168,7 @@ nav a:hover {
 .dropdown-content {
     clear: both;
     position: absolute;
+    border-radius: 4%;
     /* background-color: rgb(235, 230, 230); */
     background-color: aliceblue;
     clear: both;

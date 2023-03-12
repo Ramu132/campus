@@ -860,6 +860,9 @@ p a {
     .card{
         width:10rem;
     }
+    .administration{
+        margin-top: 5rem;
+    }
 
 }
 
