@@ -839,6 +839,7 @@ p a {
     }
     .card{
         width: 12rem;
+        margin:1rem;
     }
 
 }
@@ -859,6 +860,7 @@ p a {
     }
     .card{
         width:10rem;
+        margin:.5rem;
     }
     .administration{
         margin-top: 5rem;
