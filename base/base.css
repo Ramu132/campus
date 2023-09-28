@@ -43,14 +43,14 @@ body {
 .top {
     width: 100vw;
     height: fit-content;
-    /* border: 2px solid  rgb(194, 81, 81); */
-    background-color: rgba(0, 0, 0, 0.318);
-   /* filter: saturate(2); */
-    /* border-bottom: 2px solid blue; */
-    color: aliceblue;
+    border-bottom: .5px solid  rgb(184, 184, 184);
+    background-color: rgba(141, 141, 141, 0.5);
+    color: rgb(255, 255, 255);
     top: 0px;
     position: fixed !important;
     z-index: 5;
+    box-shadow: 1px 1px 10px rgb(95, 95, 95,.5);
+    backdrop-filter: blur(15px);
     
 }
 
